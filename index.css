@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin:2rem 10rem 0rem 10rem;
+    width:900px;
+}
+#container{
+  margin:0rem 10rem 0rem 10rem;
+  width:900px;
+}
+.input-box{
+    height: 25px;
+    width: 800px;
+}
+.add-btn{
+    background-color: cornflowerblue;
+    border:none;
+    color:white;
+    height:27px;
+    padding: 0px 12px 0px 12px;
+    cursor:pointer;
+}
+.btn{
+    background-color: white;
+    width:50px;
+    height:30px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inner-container{
+    display:flex;
+    margin-bottom: 20px;
+}
+.inner-main-container{
+  list-style: none;
+  display:flex;
+  margin-bottom: 20px;
+  width:890px;
+  justify-content: space-between;
+
+}
+.btn-container{
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.thumbs-up{
+    width:15px;
+    height:15px;
+}
+.thumbs-down{
+    width:15px;
+    height:15px;
+    margin-top:2px;
+}
+.text{
+    font-size: large;
+    font-weight: bold;
+    margin:5px 0px 0px 15px;
+}
+.dislike-value{
+    cursor:pointer;
+}
+.like-value{
+    cursor:pointer;
+}
+
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  margin: 0;
+  color: #27253d;
+  background: #e6f3f8;
+}
+
+main {
+  position: relative;
+  padding: 1rem 1rem 3rem;
+  min-height: calc(100vh - 4rem);
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.pagination-container {
+  width: calc(100% - 2rem);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem 0;
+  justify-content: center;
+}
+
+.pagination-number,
+.pagination-button{
+  font-size: 1.1rem;
+  background-color: transparent;
+  border: none;
+  margin: 0.25rem 0.25rem;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: .2rem;
+}
+
+.pagination-number:hover,
+.pagination-button:not(.disabled):hover {
+  background: #fff;
+}
+
+.pagination-number.active {
+  color: #fff;
+  background: #0085b6;
+}
+.remove-btn{
+  background-color: red;
+  color:white;
+  border:none;
+  padding: 0px 12px 0px 12px;
+  cursor:pointer;
+  height:27px;
+}
+
+
+
+
+
